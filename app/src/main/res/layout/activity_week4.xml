@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9ECC3"
+    tools:context=".Week4">
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_x="269dp"
+        android:layout_y="164dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="164dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="164dp"
+        android:text="*" />
+
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="280dp"
+        android:layout_height="119dp"
+        android:layout_x="71dp"
+        android:layout_y="245dp"
+        android:gravity="center"
+        android:text="Hi"
+        android:textColor="#B54949" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="164dp"
+        android:text="+" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="94dp"
+        android:layout_y="39dp"
+        android:ems="10"
+        android:hint="Num1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="94dp"
+        android:layout_y="101dp"
+        android:ems="10"
+        android:hint="Num2"
+        android:inputType="textPassword" />
+</AbsoluteLayout>

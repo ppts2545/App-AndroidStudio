@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IT2113110817_Week2</string>
+
+    <string-array name="teams">
+        <item>Japan</item>
+        <item>Thai</item>
+        <item>USA</item>
+    </string-array>
+
+    <string-array name="CAR">
+        <item>R34 Skyline</item>
+        <item>Supra m4</item>
+        <item>R15 silvia</item>
+        <item>Rx7 nissan</item>
+    </string-array>
+
+
+</resources>

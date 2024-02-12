@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".week2">
+
+    <EditText
+        android:id="@+id/toT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="to "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/SubT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="subject"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mesT"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Message"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/SP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/teams" />
+
+        <Spinner
+            android:id="@+id/SP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/CAR" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Send" />
+
+    <CheckBox
+        android:id="@+id/CB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male" />
+
+    <CheckBox
+        android:id="@+id/CB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female" />
+
+    <TextView
+        android:id="@+id/showTV"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:gravity="center"
+        android:text="Hi"
+        android:textColor="#B54949" />
+</LinearLayout>

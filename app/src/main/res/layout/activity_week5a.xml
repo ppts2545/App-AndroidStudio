@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93D6F4"
+    tools:context=".week5A" >
+
+    <EditText
+        android:id="@+id/score5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="212dp"
+        android:ems="10"
+        android:hint="Score:"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/fname5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="146dp"
+        android:ems="10"
+        android:hint="FirstName:"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="48dp"
+        android:text="week 5A"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="308dp"
+        android:text="send" />
+
+    <Button
+        android:id="@+id/open5c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="375dp"
+        android:text="open 5C" />
+</AbsoluteLayout>
